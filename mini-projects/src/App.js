@@ -1,5 +1,6 @@
 import './App.css';
 import Email from './components/Email/Email';
+import Product from './components/Product/Product';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         Hello
       </h1>
       <Email />
+      <Product />
     </div>
   );
 }
